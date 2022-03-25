@@ -66,3 +66,8 @@ containers: [Dockerized GitLab](https://github.com/sameersbn/docker-gitlab).
 Nginx route requests to services using Nginx upstearm. The Nginx default configuration is stored in `nginx/config/nginx.conf`.
 Also you can change each service upstearm default configurtion stored in `nginx/config/`. For exapmle if you want change GitLab HTTP address,
 you should change `GITLAB_HOST` on docker-compose, GitLab service, and also `server_name` on `nginx/config/gitlab.conf`.
+
+###
+Jenkins: [url](http://localhost:8080/job/)
+Gitlab: [url](http://localhost)
+Nexus: [url](http://localhost:8081/)
